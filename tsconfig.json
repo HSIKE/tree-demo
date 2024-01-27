@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
     "target": "ES5",
     "module": "ESNext",
     "jsx": "react",
@@ -9,5 +8,5 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
   },
-  "exclude": ["node_modules", "dist", "scripts"]
+  "exclude": ["node_modules", "build", "scripts"]
 }
